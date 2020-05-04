@@ -4,11 +4,23 @@
         <!--specifies title of the page !-->
         <title>Home</title>
     <head>
-    <body>
-    <p>Pedro B T Santos</p>
-    <img src="/static/images/SantosPedro.jpg" alt="Profile">
-    <p>Grade: Sophomore</p>
-    <p>Intended Major: Computer Science</p>
-    </body>
+    <body><center>
+        <!--Navigation area-->
+        <strong><nav>
+            <ul class="menu">
+                <li><a href="{{ url_for('hello') }}">Home</a></li>
+                <li><a href="{{ url_for('track') }}">Tracker</a></li>
+                <li><a href="{{ url_for('give_recs') }}">Songs</a></li>
+            </ul>
+        </nav></strong>
+        <!--Other required info-->                
+        <p>Pedro B T Santos</p>
+        <img src="/static/images/SantosPedro.jpg" alt="Profile">
+        <ul>    
+            <li>Grade: Sophomore</li>
+            <li>Intended Major: Computer Science</li>
+            <li>Fave website: <a href="https://80000hours.org">80000hours</a></li>    
+        </ul>
+    </center></body>
 </html>
 
