@@ -3,14 +3,15 @@
     <head>
         <!--specifies title of the page !-->
         <title>Home</title>
-    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
     <body><center>
         <!--Navigation area-->
         <strong><nav>
             <ul class="menu">
                 <li><a href="{{ url_for('hello') }}">Home</a></li>
                 <li><a href="{{ url_for('track') }}">Tracker</a></li>
-                <li><a href="{{ url_for('give_recs') }}">Songs</a></li>
+                <li><a href="{{ url_for('give_recs') }}">Pick a Beer</a></li>
             </ul>
         </nav></strong>
         <!--Other required info-->                
