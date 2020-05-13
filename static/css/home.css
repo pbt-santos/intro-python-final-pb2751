@@ -1,0 +1,27 @@
+body {
+  background-color: #fffdd0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  color: black;
+}

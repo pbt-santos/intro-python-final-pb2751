@@ -5,6 +5,9 @@ Final
 I made the main website parts as expected to get familiar with flask style.
 My file layout had a static folder which included a CSS style sheet that 
 allowed me to create a navigation bar for the website. 
+I did not really know much CSS going in so I used:
+https://www.w3schools.com/css/css_navbar_horizontal.asp
+to help me design the nav bar and learn how to use CSS.
 
 My favourite website link was made with the href tag, while the other two
 weblinks went to a particular app route link.
