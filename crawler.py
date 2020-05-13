@@ -52,7 +52,7 @@ def retrieve_statistics(df1, df2, debug=False):
         df_merged.drop([x+"_x",x+"_y"], axis=1, inplace=True)
 
     # return the sorted dataframe in HTML
-    return df_merged.sort_values(by="Rank_diff").to_html()
+    return df_merged.sort_values(by="Rank_diff").to_html(index=False)
     
 
 # finally, write the function that we will import to run the others
